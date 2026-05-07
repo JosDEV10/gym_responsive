@@ -18,7 +18,7 @@ html, body{
 }
 
 .menu-toggle{
-    display:none; /* 🔥 oculto en PC */
+    display:none;
     font-size:30px;
     color:white;
     cursor:pointer;
@@ -29,7 +29,7 @@ header{
     position:sticky;
     top:0;
     z-index:1000;
-background:linear-gradient(135deg, #7a7a7a, #5e5e5e, #3f3f3f);
+    background:linear-gradient(135deg, #7a7a7a, #5e5e5e, #3f3f3f);
     box-shadow:0 4px 15px rgba(0,0,0,0.35);
     padding:5px 0;
 }
@@ -366,7 +366,6 @@ nav a.active{
     width:530px;
 }
 
-
 /* TABLA */
 .table-section{
     background:#111;
@@ -498,8 +497,6 @@ tr:hover{
     border-radius:10px;
 }
 
-
-
 .formulario button{
     padding:15px 25px;
     border:none;
@@ -514,12 +511,10 @@ tr:hover{
     align-self:flex-end;
 }
 
-
 .formulario button:hover{
     background:#001f80;
     transform:scale(1.05);
 }
-
 
 /* CONTACTO */
 .footer{
@@ -636,7 +631,6 @@ nav{
     display:flex;
 }
 
-
     .logo{
         margin:0;
     }
@@ -646,7 +640,6 @@ nav{
     padding:0 !important;
 }
 
-
 .logo-link:hover{
     background:none !important;
     transform:none !important;
@@ -654,7 +647,6 @@ nav{
 }
 
     /* ===== HERO ===== */
-
     .hero{
     overflow:hidden;
 }
@@ -663,13 +655,12 @@ nav{
     width:100%;
     height:auto;
 }
+
     /* ===== BANNER ===== */
     .banner{
         font-size:18px;
         padding:15px;
     }
-
-    /* ===== ABOUT ===== */
     .about-section h2{
         font-size:28px;
     }
@@ -729,10 +720,6 @@ nav{
     .plan{
     border:2px solid #ffc107;
 }
-
-
-
-    /* ===== HORARIOS / CARD ===== */
     .card{
         padding:20px;
     }
@@ -742,8 +729,6 @@ nav{
     }
 
     /* ===== VIDEO ===== */
-
-
     .video-box{
     display:flex;
     justify-content:center;
@@ -792,10 +777,7 @@ nav{
     text-shadow:
         1px 1px 2px rgba(0,0,0,0.4);
     }
-
-
     
-
     /* ===== FOOTER ===== */
     .contact-container{
         flex-direction:column;
